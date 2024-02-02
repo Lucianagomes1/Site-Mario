@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="videomario">
+      <video src="./assets/video.mp4" autoplay muted loop></video>
+      <div class="mascara"></div>
+    </div>
+    <div class="caixaprincipal">
+      <img class="logo" src="./assets/logo (1).png" alt="" />
+      <h1>Encanadores Mario e Luigi - Resolvendo Seus Problemas Com Estilo.</h1>
+      <p>
+        Voce ja se encontrou em alguma situação de emergencia com encanamento?
+        vazamentos inesperados, canos entupidos ou torneiras que não param de
+        pingar? Não se preocupe porque estamos aqui para salvar o dia!
+        Apresentamos a voces os encanadores mais famosos do Reino dos Cogumelos
+        - Mario e Luigi!
+      </p>
+      <button onclick="cliquei()" class="contato" ><a href="#">Entre em contato</a></button>
+    </div>
+
+    <img class="mario" src="./assets/mario.png" alt="" />
+
+    <formm class="formulario">
+      
+        <div class="filha">
+          <h1>Fale conosco</h1>
+          <input type="text" placeholder="Nome" autocomplete="name" />
+          <input type="tel" placeholder="Telefone" autocomplete="tel" />
+          <textarea name="" id="" cols="30" rows="10" placeholder="Digite o seu problema."></textarea>
+<button onclick="sumir()" class="botaoformulario">Pedir orçamento.</button>
+</div>
+      </div>
+    </formm>
+  </body>
+
+  <script>
+    let formu = document.querySelector(".formulario");
+
+    function cliquei(){
+    formu.style.left = "1700px"; 
+    }
+
+    function sumir(){
+        formu.style.left = "-700px"
+
+    }
+
+    
+  </script>
+</html>
