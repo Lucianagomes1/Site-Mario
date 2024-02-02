@@ -1,8 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Mukta', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 10px;
+    color: aliceblue;
+    width: 100%;
+    height: 116px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.lin1{
+    margin-right: 30px;
+    color: blue;
+    margin-left: 30px;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.lin2{
+    margin-right: 30px;
+    margin-left: 30px;
+    color: red;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.div2{
+    display: inline-block;
+    margin-top: 52px;
+    position: absolute;
 }
 
 body {
@@ -47,6 +77,7 @@ p{
     color: aliceblue;
     margin-top: 20px ;
     font-size: 30px;
+    font-family: 'Mukta', sans-serif;
 }
 
 .contato{
@@ -57,16 +88,19 @@ p{
     color: aliceblue;
     font-size: 20px;
     border-radius: 10px;
+    font-family: 'Mukta', sans-serif;
 }
 
 a{
     text-decoration: none;
     color: aliceblue;
+    font-family: 'Mukta', sans-serif;
 }
 
 h1{
     color: aliceblue;
     font-size: 40px;
+    font-family: 'Mukta', sans-serif;
     
 }
 
@@ -100,6 +134,7 @@ textarea{
     font-size: 30px;
     border-radius: 20px;
     margin-top: 10px;
+    font-family: 'Mukta', sans-serif;
     
 }
 .botaoformulario{
@@ -111,6 +146,11 @@ textarea{
     font-size: 20px;
     margin-top: 10px;
     cursor: pointer;
+    font-family: 'Mukta', sans-serif;
     
     
+}
+
+.logom{
+    height: 130px;
 }
