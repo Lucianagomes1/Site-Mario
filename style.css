@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 17px;
+
 }
 
 header{
@@ -10,9 +12,7 @@ header{
     top: 5px;
     color: aliceblue;
     width: 100%;
-    height: 116px;
-    font-size: 30px;
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .lin1{
@@ -42,14 +42,15 @@ body {
   justify-content: space-evenly;
 }
 .logo {
-  width: 300px;
+  width: 150px;
   margin-bottom: 30px;
 }
 .mario {
-  height: 600px;
+  height: 300px;
 }
 .caixaprincipal {
   width: 40%;
+  margin-top: 40px;
   text-align: justify;
 }
 .videomario {
@@ -76,17 +77,15 @@ video {
 p{
     color: aliceblue;
     margin-top: 20px ;
-    font-size: 30px;
     font-family: 'Mukta', sans-serif;
 }
 
 .contato{
-    height: 70px;
-    width: 200px;
+    height: 40px;
+    width: 160px;
     background: red;
     margin-top: 40px;
     color: aliceblue;
-    font-size: 20px;
     border-radius: 10px;
     font-family: 'Mukta', sans-serif;
 }
@@ -99,7 +98,6 @@ a{
 
 h1{
     color: aliceblue;
-    font-size: 40px;
     font-family: 'Mukta', sans-serif;
     
 }
@@ -111,7 +109,7 @@ h1{
     border-radius: 10px;
     padding: 15px;
     position: fixed;
-    left: -700px;
+    left: -500px;
     transition: left 3s linear;
 }
 
@@ -123,27 +121,25 @@ h1{
    align-items: center;
 }
 input{
-    height: 60px;
+    height: 20px;
     width: 100%;
     border-radius: 10px;
     outline-color: red;
-    font-size: 30px;
 }
 textarea{
+  height: 170px;
     width: 100%;
-    font-size: 30px;
     border-radius: 20px;
     margin-top: 10px;
     font-family: 'Mukta', sans-serif;
     
 }
 .botaoformulario{
-    height: 50px;
-    width: 155px;
+    height: 30px;
+    width: 135px;
     background: red;
     color: aliceblue;
     border-radius: 10px;
-    font-size: 20px;
     margin-top: 10px;
     cursor: pointer;
     font-family: 'Mukta', sans-serif;
@@ -152,5 +148,5 @@ textarea{
 }
 
 .logom{
-    height: 130px;
+    height: 110px;
 }
